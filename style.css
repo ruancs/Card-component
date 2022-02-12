@@ -72,3 +72,21 @@ span{
 }
 
 
+@media only screen and (max-width:1256px){
+
+   .container, .card{
+       flex-direction: column-reverse;
+       flex-wrap: wrap;
+       columns: 1 0;
+       justify-content: flex-start;
+    
+
+   }
+   
+
+
+
+
+}
+
+
