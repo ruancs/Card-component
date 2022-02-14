@@ -77,11 +77,15 @@ span{
    .container, .card{
        flex-direction: column-reverse;
        flex-wrap: wrap;
-       columns: 1 0;
-       justify-content: flex-start;
-    
-
+       width: 800px;       
+       justify-content: center;
+       margin: 0 auto;    
    }
+
+   #bgimg{
+       width: 100% !important;
+   }
+
    
 
 
