@@ -62,7 +62,8 @@ span{
     font-size: 15px;
     justify-content: space-between;
     text-transform: uppercase;
-    font-family:'Inter', sans-serif;
+    font-family:'Lexend Deca', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .flex span{
@@ -95,6 +96,7 @@ span{
    .flex{
        flex-direction: column;
        gap:30px;
+       font-size: 12px;
 
    }
 
