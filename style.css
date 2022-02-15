@@ -36,6 +36,15 @@ span{
 
 }
 
+#bgimg{
+    
+    filter: brightness(100%);
+    filter:opacity(20%);
+    background-color: hsl(277, 64%, 61%);    
+    width: 50%;
+    border-radius: 0 10px  10px 0;
+}
+
 .card{
     justify-content: space-between;
     position: relative;
@@ -58,6 +67,7 @@ span{
 
 .flex{
     display: flex;
+    margin-top: 50px;
     flex-direction: row;
     font-size: 15px;
     justify-content: space-between;
@@ -96,6 +106,7 @@ span{
    .flex{
        flex-direction: column;
        gap:30px;
+       margin: 0;
        font-size: 12px;
 
    }
